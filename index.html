@@ -1,51 +1,92 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
+
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Latitude Project</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	<h1>Paul Nisenson</h1><hr>
-	<img src="profilepic.JPG" alt = "Picture of Paul circa 2015"><br><hr>
-	<article>
-			Data analyst with a background in accounting possessing skills in Excel, VBA, Python, and SQL. Established reputation for using technology to find solutions to create efficiencies in the workplace, including automating reports using advanced Excel functions to reduce preparation time. Passionate about learning new technologies and teaching them to others through informal or formally developed training. History of developing and executing projects with co-workers from C-suite to junior-level. My ability to problem-solve, work cross-functionally, and bring enthusiasm to all tasks will be an advantage to any team.
-	</article><br>
-	<article>
-			In his free time, Paul loves watching and discussing soccer, basketball, and a wide array of tv shows. His favorites include the following:<br><br>
-			<table border ="1">
-				<thead>
-					<tr><th colspan="3">Favorite Shows</th></tr>
-					<tr>
-						<th>Show</th>
-						<th align="center">Favorite Actor</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td align="center">The Office</td>
-						<td align="center">Steve Carrell</td>
-					</tr>
-					<tr>
-						<td align="center">Parks and Rec</td>
-						<td align="center">Amy Poehler</td>
-					</tr>
-					<tr>
-						<td align="center">New Girl</td>
-						<td align="center">Max Greenfield</td>
-					</tr>
-				</tbody>
-			</table>
-	</article><br>
-	<article>
-			Here are links to my professional social media accounts:
-	<ul>
-    		<li><a href="https://linkedin.com/in/Paul-nisenson" target="_blank">LinkedIn</a></li>
-    		<li><a href="https://github.com/pnisenson" target="_blank">GitHub</a></li>
-	</ul>
-	</article>
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Plots
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
+<div class="container-fluid pt-3">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="p-3 border bg-light">    
+      <div class="row"><h1>Summary: Latitude vs. X</h1></div>
+        <hr>
+        <div class="row text-wrap">
+          <div class="col-md-12">
+            <img width = 200px class = "float-left pr-3" src="resources/assets/images/Fig1.png"/>
+             The purpose of this project was to analyze weather changes yada yada yada yada yada yada yada yada yada yada yada yada The purpose of this project was to analyze weather changes yada yada yada yada yada yada yada yada yada yada yada yada The purpose of this project was to analyze weather changes yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada yada The purpose of this project was to analyze weather changes yada yada yada yada yada yada yada yada yada yada yada yada The purpose of this project was to analyze weather changes yada yada yada yada yada yada yada yada yada yada yada yada
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-3 border bg-light">
+      <div class="row"><h1>Visualizations</h1></div>
+        <hr>
+        <div class="row pb-1">
+          <div class="col-xl-6">
+            <a href="maxtemp.html">
+            <img width = 150px src="resources/assets/images/Fig1.png" alt="Max Temp"></a></div>
+          <div class="col-xl-6">
+            <a href="humidity.html">
+            <img width = 150px src="resources/assets/images/Fig2.png" alt="Humidity"></a></div>
+        </div>
+        <div class="row">
+          <div class="col-xl-6">
+            <a href="cloudiness.html">
+            <img width = 150px src="resources/assets/images/Fig3.png" alt="Cloudiness"></a></div>
+          <div class="col-xl-6">
+            <a href="wind.html">
+            <img width = 150px src="resources/assets/images/Fig4.png" alt="Wind Speed"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
-
 </html>
