@@ -1,0 +1,28 @@
+
+
+td {text-align: right;
+	font-size: 12px ;
+}
+
+th {text-align: center;
+	font-size: 16px;
+	font-style: italic; 	
+
+		}
+
+h1 {font-family: inherit;
+	font: inherit;
+	font-size: 	30px;
+	font-weight: bolder;
+	}
+
+h2 {font-family: inherit;
+	font: inherit;
+	font-size: 	24px;
+	font-weight: bolder;
+	}
+
+h3 {font-size: 20px;
+	text-align: center;
+}
+
